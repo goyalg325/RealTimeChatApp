@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    content: border-box;
+}
+html body{
+    height:100%;
+    width:100%;
+}
+
+
+
+.navbar {
+    background-color: #128C7E; /* Change to your desired navbar background color */
+    color: #fff; /* Change to your desired text color */
+    width: 100%; /* Navbar spans the entire width */
+    height: 65px; /* Set your desired navbar height */
+    position: sticky;
+    top: 0px;
+    z-index: 100; /* Ensure the navbar appears above the content */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+   margin-left: 0;
+    display:inline-flex;
+    height: 60px;
+    width:60px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.status{
+    display: inline-flex;
+    font-size: 30px;
+    font-weight:bolder;
+    /* height: 60px;
+    margin-top: 10px; */
+    margin-left: 40px;
+    margin-right: 40px;
+  
+}
+.calls{
+    display: inline-flex;
+    font-size: 30px;
+    /* height: 60px;
+    margin-top: 10px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight:bolder;
+}
+.chats{
+    display: inline-flex;
+    /* height: 60px; */
+    font-size: 30px;
+    /* margin-top: 10px; */
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+    font-weight:bolder;
+    
+   
+    border-bottom:  0px solid #ddd;
+}
+body{
+   background-color:  #ddd;
+   overflow-y:auto;
+}
+.container{
+    display: block;
+    width:100%;
+    height:100%;
+    background-color: red;
+    
+}
+.right{
+    
+        background-color: #25D366; /* Green background */
+        color: black; /* White text color */
+        border: 1px solid #075E54; /* Darker green border */
+        border-radius: 10px; /* Rounded corners */
+        max-width: 70%; /* Limit the width of the message box */
+        padding: 10px; /* Add some padding */
+        margin: 5px 5px; /* Add margin between messages */
+        float:right;
+        clear:both;
+    
+}
+.left{
+   
+        background-color: #fff; /* White background */
+        color: #000; /* Black text color */
+        border: 1px solid #e4e4e4; /* Gray border */
+        border-radius: 10px; /* Rounded corners */
+        max-width: 70%; /* Limit the width of the message box */
+        padding: 10px; /* Add some padding */
+        margin: 5px 5px; /* Add margin between messages */
+        float:left;
+        clear:both;
+  
+}
+.send{
+  
+ 
+    /* right:5px; */
+    background-color: #f2f2f2;
+   
+    border-top: 1px solid #ccc;
+   
+    align-items:flex-end;
+ position: fixed;
+ bottom:0px;
+ margin-bottom: 2px;
+ margin-left: 35vw;
+    z-index: 100;
+
+}
+#msg{
+    
+       align-items: end;
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        font-size: 20px;
+        width: 50vw;
+        display: inline-flex;
+        background-color: white;
+}
+.btn{
+    background-color: #128C7E;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 10px;
+    position: fixed;
+   bottom: 0px;
+   
+}
