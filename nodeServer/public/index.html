@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whatsapp Clone</title>
-          <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
-      <script defer src="client.js"></script>
+        
     <link rel="stylesheet" href="style.css">
   
 </head>
@@ -15,18 +14,19 @@
 <li class = "status">Status</li>
 <li class = "calls">Calls</li></ul></div>
     <div class="container">
-    <div class=" right">ha bhai kaise </div>
-    <div class=" left">badhiya</div>
-<div class="right">tu bta</div>
-<div class="left">pehle app</div>
+        <div id = "msgcontainer">
+    <div class=" left">wlc to chat... </div>
+   
+</div>
 <div class="send">
-    <form action="#" id="send-box">
-        <input type="text" name = "msg" placeholder="Type your message..." id = "msg">
-        <button class = "btn" type="submit"></button>
-    </form>
+   
+        <input type="text" id = "message" class = "send msg" placeholder="Type your message..." />
+        <button class = "btn" id = "sendBtn" ></button>
+   
 </div>
       </div>
      
-
+      <script defer src="/socket.io/socket.io.js"></script>
+      <script defer src="client.js"></script>
 </body>
 </html>
